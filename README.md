@@ -13,8 +13,8 @@ their vector _Culex pipiens_”
 ([Garrigós et al. 2025, Molecular Ecology](https://doi.org/10.1111/mec.17240)).
 The files are intended for practice in coursework and other tutorials on omics /
 RNA-Seq data analysis.
-If you use these data beyond practice purposes, please cite the original paper and
-obtain the full data from ENA (see the links above).
+If you use these data beyond practice purposes,
+please cite the original paper and obtain the full data from ENA (see below).
 
 The rest of this README describes the files in this directory, by sub-directory.
 
@@ -33,7 +33,7 @@ To simplify the dataset for practice purposes, the following modifications were 
 - Files for the following samples were **removed**:
   - 2 samples that were also excluded in the study itself
     (see the paper for details).
-  - All samples at the 21-day (21 DAI) time point.
+  - All samples at the 21-day (21 DPI) time point.
 
 - Files were randomly "**subset**" to keep only 500,000 reads per file using
   the tool [`seqtk`](https://github.com/lh3/seqtk) v1.3-r106.
